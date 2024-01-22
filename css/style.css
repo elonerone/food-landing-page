@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    /* position: relative; */
+    width: 100%;
+    border: 1rem solid black;
+    height: 100%;
+    background-color: rgb(77, 46, 77)
+}
+section{
+  /* position: absolute; */
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: chartreuse;
+  justify-content: center;
+}
+
+.container1{
+  display: flex;
+  width: 100%;
+  height: 55rem;
+  padding-top: 1rem;
+  background-color: red;
+  margin: rem;
+}
+
+
+* .container-one-object{
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
+}
+.container-one-img{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+  src: ; 
+    background-image: url(../pics/soup.png);
+}
+.cotainer-one-object,.cotainer-one-img{
+}
