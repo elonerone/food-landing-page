@@ -25,23 +25,51 @@ section{
   display: flex;
   width: 100%;
   height: 55rem;
-  padding-top: 1rem;
-  background-color: red;
-  margin: rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  background-color: #FFFFFF;
+  
 }
 
 
-* .container-one-object{
+.container-one-object{
   width: 50%;
   height: 100%;
   background-color: yellow;
 }
 .container-one-img{
+    object-fit: fill;
     width: 50%;
     height: 100%;
-    background-color: green;
-  src: ; 
-    background-image: url(../pics/soup.png);
+    background-color: #FFFFFF;
+}
+.container-one-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
 }
 .cotainer-one-object,.cotainer-one-img{
+}
+.breakfast{
+  position: relative;
+  display: flex;
+  width: 8rem;
+}
+
+.breakfast-text{
+background-color: transparent;
+position: absolute;
+
+}
+.breakfast-icon{
+  display: flex;
+  align-items: flex-end;
+background-color: transparent;
+position: absolute;
+left: 7rem;
+top: 3rem;
+}
+.breakfast-icon img{
+  width: ;
 }
