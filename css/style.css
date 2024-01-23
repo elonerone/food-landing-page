@@ -39,12 +39,32 @@ section{
   background-color: #FFFFFF;
   
 }
-
-
+.title-dreams{
+  position: relative;
+  top: 4rem;
+  font-size: 2rem;
+background-color: white;
+font-family: bold;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: space-between;
+  align-content: space-between;
+  height: 34rem;
+}
+.asdas{
+  background-color: white;
+}
 .container-one-object{
   width: 50%;
   height: 100%;
-  background-color: yellow;
+  background-color: white;
+  position: relative;
+  left: 6rem;
 }
 .container-one-img{
     object-fit: fill;
@@ -61,6 +81,27 @@ section{
 .cotainer-one-object,.cotainer-one-img{
 }
 
+.texttr{
+display: flex;
+/* justify-content: center; */
+}
+.tangle{
+  position: relative;
+  top: 16rem;
+  right: 2rem;
+}
+.Rectangle{
+  width: 0.5rem;
+  height: 18rem;
+  background-color: #D85A5A;
+}
+.white-space{
+  position: absolute;
+  top: 14rem;
+  width: 0.5rem;
+  height: 2rem;
+  background-color: white;
+}
 
 
 .left-bold-text{
@@ -81,7 +122,11 @@ section{
     font-size:1rem;
     padding-top: 0.5rem; 
 }
-
+.all-menu{
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
 .view-menu{
     width: 11rem;
     height: 3rem;
@@ -104,6 +149,7 @@ section{
 
 .breakfast{
     position: relative;
+    top: 3rem;
     display: flex;
     width: 8rem;
 }
