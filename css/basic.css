@@ -12,6 +12,7 @@
 .container-main_text{
 width: 58rem;
 background-color: white;
+position: relative;
 }
 .container-bird_img{
   background-color: white;
