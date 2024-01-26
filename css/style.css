@@ -14,7 +14,7 @@ src: url(../pics/Karla/static/Karla-Light.ttf);
 body{
     /* position: relative; */
     width: 100%;
-    border: 1rem solid black;
+    /* border: 1rem solid black; */
     height: 100%;
     background-color: rgb(77, 46, 77)
 }
@@ -34,10 +34,10 @@ section{
 .container1{
   display: flex;
   flex-wrap:wrap;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
-  width: auto;
+  width: 100%;
   height: 55rem;
   padding-top: 2rem;
   padding-right: 1rem;
@@ -47,7 +47,7 @@ section{
 .hgasdff{
   width: 10rem;
   height: 19rem;
-  background-color: green;
+  background-color: white;
 }
 .title-dreams{
   position: relative;
@@ -55,6 +55,28 @@ section{
   font-size: 2rem;
 background-color: white;
 font-family: bold;
+}
+.all-container{
+  background-color: white;
+  width: 50%;
+  height: 20rem;
+}
+.left-div{
+  width: 50%;
+  height: 50rem;
+  background-color: white;
+  /* position: relative;
+top: 3rem; */
+/* padding: 8rem; */
+margin: 8rem;
+margin-right: 10rem;
+padding-left: 8rem;
+}
+.left-div-tex{
+  background-color: white;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 .title{
   display: flex;
@@ -70,9 +92,8 @@ font-family: bold;
   background-color: white;
 }
 .container-one-object{
-  width: 50%;
-  height: 100%;
-  background-color: fuchsia;
+  width: 59rem;
+  background-color: white;
   /* position: relative;
   left: 6rem; */
 }
@@ -80,9 +101,8 @@ font-family: bold;
     display: flex;
     align-items: center;
     object-fit: fill;
-    width: 50rem;
-    height: 58rem;
-    background-color: deepskyblue;
+    width: 50%;
+    background-color: white;
 }
 .container-one-img img{
   width: 100%;
@@ -91,11 +111,6 @@ font-family: bold;
   
 }
 .cotainer-one-object,.cotainer-one-img{
-}
-
-.texttr{
-display: flex;
-/* justify-content: center; */
 }
 .tangle{
   position: relative;

@@ -1,0 +1,22 @@
+.container{
+  
+}
+.container-main{
+  display: flex;
+  /* gap: 3rem; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-around;
+}
+.container-main_text{
+width: 58rem;
+background-color: white;
+}
+.container-bird_img{
+  background-color: white;
+  width: 58rem;
+}
+.bird-img{
+  width: 100%;
+}
